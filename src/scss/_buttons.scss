@@ -1,0 +1,33 @@
+@import 'vars';
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  & > a {
+    margin: 2px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 4px 12px;
+    text-align: center;
+    line-height: 27px;
+    &.javascript {
+      color: $bbb;
+      background-color: $www;
+    }
+    &.css {
+      color: skyblue;
+      background-color: #789;
+    }
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+    &:active {
+      background-color: $yyy;
+    }
+  }
+}

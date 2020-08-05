@@ -1,0 +1,35 @@
+.post-title {
+  font-size: 3.157em;
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+  line-height: 69px;
+  color: $www;
+  position: relative;
+  a {
+    color: $www;
+  }
+  &::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    background-color: $www;
+    margin-left: 1rem;
+    bottom: -7px;
+    height: 57px;
+    width: 2px;
+    animation: pipe 1.5s infinite;
+  }
+}
+.data-header {
+  span {
+    font-size: 0.7rem !important;
+  }
+}
+h2.data-header span {
+  font-size: 0.6rem;
+}
+
+.blog-feeds {
+  display: none;
+}
